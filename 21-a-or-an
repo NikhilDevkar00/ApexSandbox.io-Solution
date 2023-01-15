@@ -1,7 +1,7 @@
 public String aOrAn(String word) {
     list<String> vowels = new list <String>{'a','e','i','o','u'};
     for(String vowel : vowels){
-        If(word.StartWithIgnoranceCase(vowels)){
+        If(word.StarstWithIgnoreCase(vowels)){
             return 'an'+ word;
         }
     }
