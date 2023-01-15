@@ -4,7 +4,7 @@ public String aOrAn(String word) {
         If(word.StartWithIgnoranceCase(vovels)){
             return 'an'+ word;
         }
+    }
         else 
         return 'a'+ word;
-    }
 }
