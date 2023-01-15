@@ -2,8 +2,9 @@ public String aOrAn(String word) {
     list<String> vovels = new list <String>{a,e,i,o,u};
     for(String vovel:vovels){
         If(word.StartWithIgnoranceCase(vovels)){
-            return true;
+            return 'an'+ world;
         }
-        else false;
+        else 
+        return 'a'+world;
     }
 }
