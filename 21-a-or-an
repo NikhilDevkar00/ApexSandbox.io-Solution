@@ -1,0 +1,9 @@
+public String aOrAn(String word) {
+    list<String> vovels = new list <String>{a,e,i,o,u};
+    for(String vovel:vovels){
+        If(word.StartWithIgnoranceCase){
+            return true;
+        }
+        else false;
+    }
+}
