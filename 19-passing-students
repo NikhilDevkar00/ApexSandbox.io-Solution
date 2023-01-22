@@ -1,0 +1,6 @@
+public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
+    if(isPassed(passedExam=true && passedAssignments=true && passedProjecttrue=true)){
+        system.debug('')
+    }
+   
+    }
